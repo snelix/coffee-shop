@@ -21,7 +21,7 @@ class Catalog extends Component {
                     name={item.name}
                     from={item.from}
                     price={item.price}
-                    link={'/catalog/cards/'}
+                    link={'/coffee-shop/catalog/cards/'}
                 />  
             );
         });

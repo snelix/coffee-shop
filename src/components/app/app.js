@@ -64,10 +64,10 @@ class App extends Component {
         <Header/>
         <Routes>
           <Route path='/coffee-shop' element={<Homepage data={dataBestProduct}/>} />
-          <Route path='/catalog' element={<Catalogpage filter={filter} onFilterSelect={this.onFilterSelect} term={term} data={visibleData} btns={this.fullCatalog} onUpdateSearch={this.onUpdateSearch}/>} />
-          <Route path={'/catalog/cards/:id'} element={<Cardpage data={this.fullCatalog} />} />
-          <Route path={'/best/cards/:id'} element={<Cardpage data={dataBestProduct} />} />
-          <Route path='/pleasure' element={<Pleasurepage data={this.fullCatalog}/>} />
+          <Route path='/coffee-shop/catalog' element={<Catalogpage filter={filter} onFilterSelect={this.onFilterSelect} term={term} data={visibleData} btns={this.fullCatalog} onUpdateSearch={this.onUpdateSearch}/>} />
+          <Route path='/coffee-shop/catalog/cards/:id' element={<Cardpage data={this.fullCatalog} />} />
+          <Route path='/coffee-shop/best/cards/:id' element={<Cardpage data={dataBestProduct} />} />
+          <Route path='/coffee-shop/pleasure' element={<Pleasurepage data={this.fullCatalog}/>} />
         </Routes>
         <Footer/>
       </div>

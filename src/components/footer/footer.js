@@ -15,10 +15,10 @@ const Footer = () => {
                 </Link>
                 <ul className="footer__list">
                     <li className="footer__item">
-                        <Link to="/catalog">Our coffee</Link>
+                        <Link to="/coffee-shop/catalog">Our coffee</Link>
                     </li>
                     <li className="footer__item">
-                        <Link to="/pleasure">For your pleasure</Link>
+                        <Link to="/coffee-shop/pleasure">For your pleasure</Link>
                     </li>
                 </ul>
 

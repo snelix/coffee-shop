@@ -12,7 +12,7 @@ const BestProduct = ({data}) => {
                 name={item.name}
                 from={item.from}
                 price={item.price}
-                link={'/best/cards/'}
+                link={'/coffee-shop/best/cards/'}
             />
         )
     });

@@ -14,10 +14,10 @@ const Header = () => {
                     </Link>
                     <ul className="header__list">
                         <li className="header__item">
-                            <Link to="/catalog">Our coffee</Link>
+                            <Link to="/coffee-shop/catalog">Our coffee</Link>
                         </li>
                         <li className="header__item">
-                            <Link to="/pleasure">For your pleasure</Link>
+                            <Link to="/coffee-shop/pleasure">For your pleasure</Link>
                         </li>
                     </ul>
 
