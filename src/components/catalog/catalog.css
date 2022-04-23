@@ -1,0 +1,24 @@
+.catalog {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.catalog__wrapper {
+    max-width: 820px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 71px;
+    row-gap: 60px;
+}
+
+.catalog__nothing {
+    text-align: center;
+}
+
+.card:hover {
+    transition: all 0.3s ease;
+    background-color: #eee;
+}

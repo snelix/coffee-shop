@@ -1,0 +1,33 @@
+.filter {
+    display: flex;
+}
+
+.filter-span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    margin-right: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.filter-btn {
+    background: #FFFFFF;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 4px 0px 0px 4px;
+    width: 75px;
+    height: 30px;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.filter-btn.active {
+    background-color: #ccc;
+    transition: all 0.3s ease;
+}
+
+.filter-btn:last-child {
+    margin-right: 0;
+}

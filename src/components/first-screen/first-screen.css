@@ -1,0 +1,21 @@
+.first-screen {
+    margin: 0 auto;
+    padding: 130px 0;
+    height: 260px;
+    background-image: url('../../img/our-coffee-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.first-screen__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.first-screen.pleasure {
+    background-image: url('../../img/pleasure-bg.jpg');
+}

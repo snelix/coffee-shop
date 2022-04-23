@@ -1,0 +1,31 @@
+.bean-black {
+    position: relative;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+}
+
+.bean-black img {
+    width: 100%;
+    height: 100%;
+}
+
+.bean-black:before {
+    content: '';
+    display: inline;
+    position: absolute;
+    top: calc(50% - 1px);
+    left: -85px;
+    width: 60px;
+    border-top: 1px solid #000;
+}
+
+.bean-black:after {
+    content: '';
+    display: inline;
+    position: absolute;
+    top: calc(50% - 1px);
+    right: -85px;
+    width: 60px;
+    border-top: 1px solid #000;
+}

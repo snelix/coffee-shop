@@ -1,0 +1,41 @@
+.card {
+    background: rgba(255, 255, 255, 0.65);
+    border-radius: 8px;
+    padding: 22px 21px 22px 21px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+    /* margin-right: 71px; */
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.card__img {
+    height: 134px;
+}
+
+.card__name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 14px 0 10px;
+}
+
+.card__from {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    margin-bottom: 14px;
+}
+
+.card__price {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+}

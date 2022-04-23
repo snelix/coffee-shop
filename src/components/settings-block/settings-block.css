@@ -1,0 +1,14 @@
+.divider {
+    margin: 0 auto;
+    width: 240px;
+    border-top: 1px solid #000000;
+    background-color: #000000;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.settings-block {
+    display: flex;
+    justify-content: center;
+    column-gap: 83px;
+}
