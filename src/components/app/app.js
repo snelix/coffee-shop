@@ -63,7 +63,7 @@ class App extends Component {
       <div className="App">
         <Header/>
         <Routes>
-          <Route path='/' element={<Homepage data={dataBestProduct}/>} />
+          <Route path='/coffee-shop' element={<Homepage data={dataBestProduct}/>} />
           <Route path='/catalog' element={<Catalogpage filter={filter} onFilterSelect={this.onFilterSelect} term={term} data={visibleData} btns={this.fullCatalog} onUpdateSearch={this.onUpdateSearch}/>} />
           <Route path={'/catalog/cards/:id'} element={<Cardpage data={this.fullCatalog} />} />
           <Route path={'/best/cards/:id'} element={<Cardpage data={dataBestProduct} />} />

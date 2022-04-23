@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="footer__wrapper">
-                <Link to="/" className="footer__logo">
+                <Link to="/coffee-shop" className="footer__logo">
                     <img src={logo} alt="coffee house" className="footer__img" />
                     <div className="footer__name">Coffee house</div>
                 </Link>
