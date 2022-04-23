@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/coffee-shop/static/css/main.95f8e141.css",
-    "main.js": "/coffee-shop/static/js/main.6900c908.js",
+    "main.js": "/coffee-shop/static/js/main.18786667.js",
     "static/media/best-bg.jpg": "/coffee-shop/static/media/best-bg.0a7b9cd461a37b4bc66a.jpg",
     "static/media/Main-bg.jpg": "/coffee-shop/static/media/Main-bg.475a56365a4ce7878d35.jpg",
     "static/media/our-coffee-bg.jpg": "/coffee-shop/static/media/our-coffee-bg.35a313742cfd39312f6a.jpg",
@@ -18,10 +18,10 @@
     "static/media/bean-black.svg": "/coffee-shop/static/media/bean-black.6495e102f339fea011d73109cd7ebe54.svg",
     "index.html": "/coffee-shop/index.html",
     "main.95f8e141.css.map": "/coffee-shop/static/css/main.95f8e141.css.map",
-    "main.6900c908.js.map": "/coffee-shop/static/js/main.6900c908.js.map"
+    "main.18786667.js.map": "/coffee-shop/static/js/main.18786667.js.map"
   },
   "entrypoints": [
     "static/css/main.95f8e141.css",
-    "static/js/main.6900c908.js"
+    "static/js/main.18786667.js"
   ]
 }
